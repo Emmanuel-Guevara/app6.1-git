@@ -2,7 +2,7 @@
  
  <widget xmlns ="http://www.w3.org/ns/widgets"
     xmlns:gap ="http://phonegap.com./ns/1.0"
-	id    ="com.phonegap.example5"
+	id    ="com.phonegap.example6"
 	version  ="1.0.0">
 	
 	<name>App6 Batalla del 5 De Mayo</name>
@@ -33,7 +33,16 @@
   
   <!-- <plugin name="cordova-plugin-geolocation" source="npm"/> -->
   <!--Third party plugins -->
-  
+    <!-- <plugin name="cordova-plugin-geolocation" source="npm"/> -->
+  <!--Third party plugins -->
+   <!--Para accesar a páginas en internet-->
+   <allow-intent href="https://*/*"/>
+   <acces origin="https://*/*"/>
+   <allow-intent href="http://*/*"/>
+   <acces origin="http://*/*"/>
+   <plugin name="cordova-plugin-whitelist" source="npm"/>
+  <!--para accesar a paginas en internet-->
+  <allow-intent href="https://*/*"/>
    <!--Colocar icono app -->
    
   <icon src="res/android/mdpi.png"/>
